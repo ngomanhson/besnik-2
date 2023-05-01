@@ -293,3 +293,79 @@ a {
     text-align: center;
     color: #ffffff;
 }
+
+/* ======== Features ======== */
+
+.features {
+    margin-top: 130px;
+}
+
+.features .title-block {
+    max-width: 577px;
+}
+
+.features .title-block .title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.features .title-block .heading {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0d1111;
+}
+
+.features .title-block .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767e7e;
+}
+
+.features .features-section {
+    margin-top: 80px;
+    display: flex;
+    gap: 209px;
+}
+
+.features .features-item {
+    width: 224px;
+}
+
+.features .features-item .icon {
+    display: block;
+    width: 102px;
+    height: 106px;
+    padding: 29px 27px;
+    border-radius: 18px;
+    background: #ffc147;
+}
+
+.features .features-item .icon.discuss {
+    background: #ff947a;
+}
+
+.features .features-item .icon.task {
+    background: #bf83ff;
+}
+
+.features .features-item .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+}
+
+.features .features-item .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+}
