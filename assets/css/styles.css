@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+    --animation: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* ======== Common ======== */
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    background: var(--primary-color);
+    min-width: 186px;
+    line-height: 68px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: var(--animation);
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+/* ======== Header ======== */
+
+.header {
+    background: #ffffff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -44px;
+    z-index: 3;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li.active a,
+.nav a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.nav a {
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2f3a3b;
+    transition: var(--animation);
+}
+
+.header .sign-in-btn {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.header .sign-up-btn {
+    margin-left: 24px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    transition: var(--animation);
+}
+
+.header .sign-up-btn:hover {
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
+/* ======== Hero ======== */
+.hero {
+    padding: 50px 0 79px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .content-block {
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .media-block {
+    position: relative;
+    width: 61%;
+    padding-left: 138px;
+}
+
+.hero .media-block .img {
+    display: block;
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .title {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #767e7e;
+}
+
+.hero .heading {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0d1111;
+}
+
+.hero .desc {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 1.8;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.hero .cta-btn {
+    margin-top: 52px;
+}
+
+.hero .play-btn {
+    margin-left: 49px;
+    width: 62px;
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: var(--animation);
+}
+
+.hero .play-btn:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.hero .summary .courses {
+    position: absolute;
+    top: 149px;
+    right: 459px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 75px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    /* z-index: 1; */
+}
+
+.hero .summary .book {
+    width: 36px;
+    height: 40px;
+}
+
+.hero .courses .title {
+    width: 55px;
+    height: 30px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #0d1111;
+}
+
+.hero .summary .schedules {
+    position: absolute;
+    top: 453px;
+    right: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 25px 23px;
+    width: 124px;
+    height: 132px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero .schedules .title {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0d1111;
+}
+
+.hero .schedules img {
+    margin-top: 16px;
+}
+
+.hero .summary .students-block {
+    position: absolute;
+    top: 500px;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 90px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+.hero .students-block .title {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0d1111;
+}
+
+.hero .avatar-group {
+    display: flex;
+}
+
+.hero .avatar-group .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    width: 33px;
+    height: 33px;
+    background: var(--primary-color);
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+
+.hero .avatar-group .avatar:first-child {
+    margin-left: 0;
+}
+
+.hero .avatar-group .avatar span {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
