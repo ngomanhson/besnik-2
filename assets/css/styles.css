@@ -34,7 +34,7 @@ a {
     text-align: center;
     background: var(--primary-color);
     min-width: 186px;
-    line-height: 68px;
+    line-height: 67px;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 14px;
@@ -563,6 +563,8 @@ a {
 
 .testimonial .quote-block {
     display: flex;
+
+    padding-bottom: 37px;
 }
 
 .testimonial .quote-block .feedback {
@@ -589,7 +591,6 @@ a {
 .testimonial .quote-block .controls {
     display: flex;
     gap: 0 30px;
-    padding-bottom: 37px;
 }
 
 .testimonial .controls .ctl {
@@ -651,8 +652,8 @@ a {
 
 .testimonial .avatar.avt-4 {
     position: absolute;
+    top: 258px;
     left: 0;
-    bottom: 145px;
     width: 78px;
     height: 78px;
     background: #ffc147;
@@ -674,4 +675,41 @@ a {
     width: 78px;
     height: 78px;
     background: #b1dfdc;
+}
+
+.cta {
+    margin-top: 173px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.cta .cta-content {
+    background: #def6f5;
+}
+
+.cta .cta-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta .cta-text {
+    padding-left: 135px;
+}
+
+.cta .cta-text .title {
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: #070707;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #767e7e;
+}
+
+.cta .cta-body .btn-cta {
+    padding-right: 289px;
 }
