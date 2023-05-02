@@ -24,6 +24,12 @@ body {
 }
 
 /* ======== Common ======== */
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 a {
     text-decoration: none;
@@ -190,7 +196,7 @@ a {
     border: 1px solid var(--primary-color);
 }
 
-.hero .summary .courses {
+.hero .summary .course {
     position: absolute;
     top: 149px;
     right: 459px;
@@ -202,7 +208,6 @@ a {
     background: #fefefd;
     box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
-    /* z-index: 1; */
 }
 
 .hero .summary .book {
@@ -210,7 +215,7 @@ a {
     height: 40px;
 }
 
-.hero .courses .title {
+.hero .course .title {
     width: 55px;
     height: 30px;
     margin-left: 16px;
@@ -332,7 +337,7 @@ a {
 .features .features-section {
     margin-top: 80px;
     display: flex;
-    gap: 80px;
+    gap: 200px;
 }
 
 .features .features-item {
@@ -553,7 +558,7 @@ a {
 /* ======== Testimonial ======== */
 
 .testimonial {
-    margin-top: 264px;
+    padding: 264px 0 0;
 }
 
 .testimonial .quote {
