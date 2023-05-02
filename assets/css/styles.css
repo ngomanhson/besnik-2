@@ -375,7 +375,8 @@ a {
 
 .courses {
     margin-top: 85px;
-    padding: 85px;
+    /* padding: 85px; */
+    padding: 65px 0 130px;
 }
 
 .courses .text-heading .title {
@@ -520,4 +521,157 @@ a {
     height: 6px;
     border-radius: 50%;
     background-color: var(--primary-color);
+}
+
+/* ======== Countdown ======== */
+
+.countdown {
+    margin-top: 352px;
+}
+
+.countdown .surrounded {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown .surrounded .number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    text-align: center;
+    color: #0d1111;
+}
+
+.countdown .surrounded .desc {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 27px;
+    text-align: center;
+    color: #767e7e;
+}
+
+/* ======== Testimonial ======== */
+
+.testimonial {
+    margin-top: 264px;
+}
+
+.testimonial .quote {
+    width: 42%;
+    padding-right: 72px;
+}
+
+.testimonial .quote-block {
+    display: flex;
+}
+
+.testimonial .quote-block .feedback {
+    margin-top: 27px;
+    width: 419px;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.testimonial .quote-block .name {
+    margin-top: 33px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #070707;
+}
+
+.testimonial .quote-block .name span {
+    color: #767e7e;
+    font-weight: 400;
+}
+
+.testimonial .quote-block .controls {
+    display: flex;
+    gap: 0 30px;
+    padding-bottom: 37px;
+}
+
+.testimonial .controls .ctl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: #ffffff;
+    cursor: pointer;
+    transition: var(--animation);
+}
+
+.testimonial .controls .ctl:hover {
+    background: #ffffff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.testimonial .list-avatar {
+    position: relative;
+    width: 58%;
+}
+
+.testimonial .list-avatar .avatar {
+    background: var(--primary-color);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial .avatar.avt-1 {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    right: 333px;
+}
+
+.testimonial .avatar.avt-2 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    background: #bf83ff;
+}
+
+.testimonial .avatar.avt-3 {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    background: #ff8282;
+}
+
+.testimonial .avatar.avt-4 {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+    width: 78px;
+    height: 78px;
+    background: #ffc147;
+}
+
+.testimonial .avatar.avt-5 {
+    position: absolute;
+    top: 403px;
+    left: 212px;
+    width: 78px;
+    height: 78px;
+    background: #ff947a;
+}
+
+.testimonial .avatar.avt-6 {
+    position: absolute;
+    top: 374px;
+    right: 32px;
+    width: 78px;
+    height: 78px;
+    background: #b1dfdc;
 }
