@@ -713,3 +713,74 @@ a {
 .cta .cta-body .btn-cta {
     padding-right: 289px;
 }
+
+/* ======== Footer ======== */
+
+.footer {
+    margin-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .footer .row .colum {
+} */
+.footer .title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+
+.footer .list {
+    margin-top: 25px;
+}
+
+.footer .list li {
+    display: block;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer .list a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer .social-link {
+    display: flex;
+    align-items: center;
+    color: #535353;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.footer .social-link .social-icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.footer .social-link .scl-name {
+    margin-left: 10px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+}
+
+.footer .copyright p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #b0b5b4;
+    padding-bottom: 50px;
+}
